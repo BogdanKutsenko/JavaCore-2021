@@ -1,6 +1,4 @@
-package com.company.homework2;
-
-import java.awt.*;
+package com.company.homework2.robot;
 
 public class CoffeeRobot extends Robot {
     @Override

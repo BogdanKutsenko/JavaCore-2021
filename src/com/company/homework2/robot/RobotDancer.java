@@ -1,6 +1,6 @@
-package com.company.homework2;
+package com.company.homework2.robot;
 
-import java.awt.*;
+import com.company.homework2.robot.Robot;
 
 public class RobotDancer extends Robot {
     @Override

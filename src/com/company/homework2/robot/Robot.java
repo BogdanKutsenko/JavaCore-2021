@@ -1,4 +1,4 @@
-package com.company.homework2;
+package com.company.homework2.robot;
 
 public class Robot {
     public String work(){

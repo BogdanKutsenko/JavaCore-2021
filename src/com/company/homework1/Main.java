@@ -11,6 +11,8 @@ public class Main {
         fillInArray1();
         printArray1();
         reversPrintArray1();
+        fillInArray5_7();
+        printArray5_7();
 
     }
     static int array1 [] = new int[5];
@@ -34,5 +36,24 @@ public class Main {
         }
         System.out.println();
     }
+    static int array5_7 [] [] = new int[5][7];
+    public static void fillInArray5_7(){
+        System.out.println("The array5_7 was created.");
+        for (int i = 0; i < array5_7.length; i++) {
+            for (int j = 0; j < array5_7[i].length; j++) {
+                array5_7 [i][j] = (int) (Math.random() * 78 - 3);
+            }
+        }
+    }
+    public static void printArray5_7(){
+        System.out.println("Your array is: ");
+        for (int i = 0; i < array5_7.length; i++) {
+            for (int j = 0; j < array5_7[i].length; j++) {
+                System.out.print(array5_7[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
 
 }
